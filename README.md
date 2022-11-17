@@ -29,3 +29,17 @@
 3. git commit -m "Second Commit"
 
 4. git push -u origin master
+
+** Git Branch **
+```git
+git branch (to view all branches)
+
+git branch new-feature (to create new branch)
+
+git branch -D new-feature (to delete branch)
+
+git checkout new-feature (to navigate other branch in repository)
+
+git checkout -b new-feature (use this command to create a branch and navigate to that particular branch)
+
+```
