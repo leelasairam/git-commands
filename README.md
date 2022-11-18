@@ -46,7 +46,7 @@ git checkout -b new-feature (use this command to create a branch and navigate to
 ```
 **other**
 ```
-git commit -am "commiting without staging (git add .)"
+git commit -a -m "commiting without staging (git add .)"
 
 git ls-files (to know files in staging area)
 
