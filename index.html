@@ -518,11 +518,11 @@ code {
 <p><code>git merge new-feature</code></p>
 </li>
 <li>
-<p><code>git fetch</code> (When we use the command git fetch, Git gathers any commit from the target branch that does not exist in our current branch and stores it in our local repository. However, it does not merge it with our current branch.)
+<p><code>git fetch origin master</code> (When we use the command git fetch, Git gathers any commit from the target branch that does not exist in our current branch and stores it in our local repository. However, it does not merge it with our current branch.)
 This is particularly useful when we need to keep our repository up to date but are working on something that might break if we updated our files. To integrate the commits into our master branch, we use merge. It fetches all of the branches from the repository. It also downloads all the required commits and files from another repository.</p>
 </li>
 <li>
-<p><code>git pull origin master</code> (pulls everthing from remote repository and updates local repository)</p>
+<p><code>git pull origin master</code> (pulls everthing from remote repository (only "Master" branch) and updates local repository) # To get all changes from current repository use "git pull". For fetch, "git fetch"</p>
 </li>
 </ul>
 
